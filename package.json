@@ -1,24 +1,31 @@
 {
-  "name": "is-eight",
-  "version": "8.0.18",
-  "description": "Checks if a number is equal to 8",
+  "name": "is-nine",
+  "version": "9.0.19",
+  "description": "Checks if a number is equal to 9",
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter list"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ua2004/is-eight"
+    "url": "git+https://github.com/r33int/is-nine.git"
   },
   "keywords": [
-    "eight",
-    "is-eight",
+    "nine",
+    "is-nine",
     "numbers",
     "math"
   ],
-  "author": "ua2004",
+  "author": "r33int",
   "license": "WTFPL",
   "devDependencies": {
     "mocha": "^2.4.5"
+  },
+  "bugs": {
+    "url": "https://github.com/r33int/is-nine/issues"
+  },
+  "homepage": "https://github.com/r33int/is-nine#readme",
+  "directories": {
+    "test": "test"
   }
 }

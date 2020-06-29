@@ -1,24 +1,24 @@
-# is-eight
-NPM package for checking if a number is equal to 8.
+# is-nine
+NPM package for checking if a number is equal to 9.
 
 ## Installation
 
 ``` bash
-$ npm install is-eight
+$ npm install is-nine
 ```
 
 ## Usage
 
 ``` js
-var eight = require('is-eight');
+var nine = require('is-nine');
 
-if(eight(8))
+if(nine(9))
 {
-  console.log("It is eight indeed!");
+  console.log("It is nine indeed!");
 }
 else
 {
-  console.log("It is not eight. What a shame!");
+  console.log("It is not nine. What a shame!");
 }
 ```
 

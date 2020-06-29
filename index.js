@@ -1,16 +1,16 @@
-var eightStrings = [
-   "viii",
-   "eight",
-   "вісім",
-   "ocho",
+var nineStrings = [
+   "ix",
+   "nine",
+   "neuf",
+   "nueve",
 ];
 
 var inArray = function(value, array) {
    return array.indexOf(value) > -1;
 }
 
-var eight = function(value) {
-   return (value == 8) || ((typeof value === "string") && inArray(value.toLowerCase(), eightStrings));
+var nine = function(value) {
+   return (value == 9) || ((typeof value === "string") && inArray(value.toLowerCase(), nineStrings));
 }
 
-module.exports = eight;
+module.exports = nine;
